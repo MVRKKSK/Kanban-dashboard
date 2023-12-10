@@ -4,7 +4,7 @@ const Dropdown = ({ selectedOption, handleOptionChange , prioritySort , handlePr
   return (
     <div className="dropdown-container">
       <div className="">
-        <label htmlFor="options">Select Option: </label>
+        <label htmlFor="options">Group By: </label>
         <select
           id="options"
           name="options"
@@ -17,7 +17,7 @@ const Dropdown = ({ selectedOption, handleOptionChange , prioritySort , handlePr
         </select>
       </div>
       <div>
-        <label  htmlFor="options">Sort By Title</label>
+        <label  htmlFor="options">Order By Title</label>
         <select
           id="options"
           name="options"
@@ -29,7 +29,7 @@ const Dropdown = ({ selectedOption, handleOptionChange , prioritySort , handlePr
           <option value="low">Asc</option>
         </select>
 
-        <label htmlFor="options">Sort By Priority</label>
+        <label htmlFor="options">Order By Priority</label>
         <select
           id="options"
           name="options"
