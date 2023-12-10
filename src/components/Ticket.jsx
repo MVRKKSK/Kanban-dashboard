@@ -26,6 +26,7 @@ const Ticket = ({ ticket, selectedOpt, user }) => {
   return (
     <div className="phaseContent">
       <div className="task">
+        
         {selectedOpt === "status" ? (
           <>
             <div className="taskCategory">{ticket.id}</div>
@@ -47,7 +48,15 @@ const Ticket = ({ ticket, selectedOpt, user }) => {
               <div className="badge sprint-bg-tur">
                 {getUserName(ticket.userId).name}
               </div>
-              <div className="user-profile" style={{ backgroundColor: getUserName(ticket.userId).available === true ? "#30ce0d" : "#f86d72" }}>
+              <div
+                className="user-profile"
+                style={{
+                  backgroundColor:
+                    getUserName(ticket.userId).available === true
+                      ? "#30ce0d"
+                      : "#f86d72",
+                }}
+              >
                 <img
                   src="https://randomuser.me/api/portraits/women/63.jpg"
                   alt=""
@@ -92,7 +101,15 @@ const Ticket = ({ ticket, selectedOpt, user }) => {
               <div className="badge sprint-bg-tur">
                 {getUserName(ticket.userId).name}
               </div>
-              <div className="user-profile" style={{ backgroundColor: getUserName(ticket.userId).available === true ? "#30ce0d" : "#f86d72" }}>
+              <div
+                className="user-profile"
+                style={{
+                  backgroundColor:
+                    getUserName(ticket.userId).available === true
+                      ? "#30ce0d"
+                      : "#f86d72",
+                }}
+              >
                 <img
                   src="https://randomuser.me/api/portraits/women/63.jpg"
                   alt=""
@@ -137,7 +154,15 @@ const Ticket = ({ ticket, selectedOpt, user }) => {
               <div className="badge sprint-bg-tur">
                 {getUserName(ticket.userId).name}
               </div>
-              <div className="user-profile" style={{ backgroundColor: getUserName(ticket.userId).available === true ? "#30ce0d" : "#f86d72" }}>
+              <div
+                className="user-profile"
+                style={{
+                  backgroundColor:
+                    getUserName(ticket.userId).available === true
+                      ? "#30ce0d"
+                      : "#f86d72",
+                }}
+              >
                 <img
                   src="https://randomuser.me/api/portraits/women/63.jpg"
                   alt=""
