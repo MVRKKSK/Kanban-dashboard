@@ -1,1 +1,6 @@
-body {}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.group:hover .group-hover\:flex {
+    display: flex !important;
+}

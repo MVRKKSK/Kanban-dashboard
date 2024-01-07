@@ -2,7 +2,7 @@ import React from "react";
 import "./index.css";
 const Dropdown = ({ selectedOption, handleOptionChange , prioritySort , handlePriorityChange , titleSort , handleTitleSort }) => {
   return (
-    <div className="dropdown-container">
+    <div className="dropdown-container max-sm:flex-col">
       <div className="">
         <label htmlFor="options">Group By: </label>
         <select
